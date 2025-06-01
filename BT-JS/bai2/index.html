@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number = Number(prompt("Nhập một số:"));
+        if(isNaN(number))
+         {
+            document.write("<h2>vui long nhap 1 so hop le!</h2>");
+         }else if(number % 2  === 0){
+            document.write("<h2>" + number + "là số chẵn.</h2>");
+         }else{
+            document.write("<h2>" + number + "là số lẻ.</h2>");
+         }
+    </script>
+</body>
+</html>
